@@ -49,7 +49,17 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 2 * * **");
 
+var dog = {
+  name: "Snoop",
+  age: 46,
+  vegeterian: false,
+  color: ["blue", "black"],
+  speak: function(){
+    return "Barkizzle!";
+  }
+};
 
+console.log("My dogg " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak());
 
 console.log ("-------------------------------------------------------");
 
@@ -69,8 +79,14 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 3 * * **");
 
+var kicks = {};
 
+kicks.brand = "Wolverine";
+kicks.color = "red";
+kicks.size = 9.5;
+kicks.buy = function(){ return "Hell Yeah!";};
 
+console.log(kicks);
 console.log ("-------------------------------------------------------");
 
 /* 
