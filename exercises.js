@@ -14,7 +14,23 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     
     Console.log the object.
 */
-    
+
+console.log("** * * Problem 1 * * **");
+
+var books = {
+  title : "The Obstacle is the Way",
+  author : "Ryan Holiday",
+  category : "Self Help",
+  pages : 200
+};
+
+console.log(books);
+// console.log("books.title: " + books.title);
+// console.log("books.author: " + books.author);
+// console.log("books.category: " + books.category);
+// console.log("books.pages: " + books.pages);
+
+console.log ("-------------------------------------------------------");
   
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
@@ -31,7 +47,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
  "My dog `name` is `age` year old and likes to `speak`."
 */ 
 
+console.log("** * * Problem 2 * * **");
 
+
+
+console.log ("-------------------------------------------------------");
 
 //An empty object
 
@@ -47,6 +67,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
   Console.log the object.
 */
 
+console.log("** * * Problem 3 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /* 
 
@@ -59,6 +84,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
   console.log the object
 */
 
+console.log("** * * Problem 4 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
@@ -71,6 +101,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     console.log the object
 */
 
+console.log("** * * Problem 5 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 
@@ -89,6 +124,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
    the value at `name`, and just the value at `age`.
  */
 
+console.log("** * * Problem 6 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 7. Display values of objects that are inside an array
@@ -115,6 +155,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             ...
  */
 
+console.log("** * * Problem 7 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 8. Addition with an object
@@ -129,6 +174,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
         to inspect your results.
 */
 
+console.log("** * * Problem 8 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 9. Print sum function and add as new key-value
@@ -147,6 +197,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
         **create more** objects and invoke your function multiple times.
  */
 
+console.log("** * * Problem 9 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 10. Putting stuff in `plainBox`
@@ -158,6 +213,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+console.log("** * * Problem 10 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 11. Detecting transmission
@@ -170,6 +230,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
 
+console.log("** * * Problem 11 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
 12.  Who's driving this thing?!
@@ -183,6 +248,11 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
       your results. Consider using `plainPerson` as your driver.
  */
 
+console.log("** * * Problem 12 * * **");
+
+
+
+console.log ("-------------------------------------------------------");
 
 /*
     #Final Boss
@@ -216,3 +286,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
         'Marifel, age 19, is riding dirty!'
         'Victor, age 19, is riding dirty!'
  */
+ console.log("FFFFIIIIIINNNNAAAAAAALLL BBBOOOOOSSSSSS");
+
+
+
+console.log ("-------------------------------------------------------");
