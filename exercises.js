@@ -157,7 +157,19 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 6 * * **");
 
+var plainPerson = {};
 
+function buildPerson(person, nameString, age){
+  person.name = nameString;
+  person.age = age;
+  return person;
+}
+
+buildPerson(plainPerson, "Guy", 30);
+
+console.log("plainPerson: ", plainPerson);
+console.log("plainPerson.name: ", plainPerson.name);
+console.log("plainPerson.age: ", plainPerson.age);
 
 console.log ("-------------------------------------------------------");
 
