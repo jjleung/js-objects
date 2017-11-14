@@ -102,7 +102,13 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 4 * * **");
 
+var plainBox = {};
 
+plainBox.color = "beige";
+plainBox.size = "10";
+plainBox.contents = [];
+
+console.log(plainBox);
 
 console.log ("-------------------------------------------------------");
 
@@ -119,7 +125,16 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 5 * * **");
 
+var stockCar = {
 
+  model: "Dodge",
+  year: 2004,
+  automaticTransmission: true,
+  driver: null,
+  passengers: []
+};
+
+console.log(stockCar);
 
 console.log ("-------------------------------------------------------");
 
