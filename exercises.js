@@ -255,8 +255,16 @@ var arrayOfObjects = [
 
 function printOrders(orders){
 
-  printStr = ""
+  for (var i=0; i<orders.length; i++){
+
+    console.log("=====");
+    console.log("id: ", orders[i].id);
+    console.log("date: ", orders[i].date);
+    console.log("total: ", orders[i].total);
+  }
 }
+
+printOrders(arrayOfObjects);
 
 console.log ("-------------------------------------------------------");
 
@@ -350,7 +358,22 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 10 * * **");
 
+function putInPlainBox(obj){
 
+  for(var i = 0; i<10; i++){
+
+    // Random rand = new Random();
+    // var num = rand.nextInt(100);
+
+    var num = Math.floor((Math.random() * 100) + 1);
+    obj.contents.push(num); 
+  }
+
+  return obj;
+}
+
+var plainBoxResult = putInPlainBox(plainBox);
+console.log(plainBoxResult);
 
 console.log ("-------------------------------------------------------");
 
@@ -367,7 +390,18 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 11 * * **");
 
+function detectingTransmission(car){
 
+  if (car.automaticTransmission == true){
+
+    console.log("The " + car.model + " has automatic transmission.");
+  } else{
+
+    console.log("The " + car.model + " does not have automatic transmission.");
+  }
+}
+
+detectingTransmission(stockCar);
 
 console.log ("-------------------------------------------------------");
 
@@ -385,7 +419,13 @@ console.log ("-------------------------------------------------------");
 
 console.log("** * * Problem 12 * * **");
 
+function addDriver(car, person){
 
+  car.driver = person;
+}
+
+addDriver(stockCar, "Ricky Bobby");
+console.log(stockCar);
 
 console.log ("-------------------------------------------------------");
 
